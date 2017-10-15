@@ -141,7 +141,7 @@ body.pace-gray .pace .pace-progress {
 }
 
 #home-jumbo-footer .block-title{
-	
+
 }
 
 /* 11 */
@@ -207,7 +207,7 @@ body.pace-gray .pace .pace-progress {
 
 
 /*** Desktops & Laptops ***/
-@media (min-width: 980px) {
+@media (min-width: 981px) {
 	#home-hero-1 .slide-2 #slide-2-content {
 		padding-bottom: 360px;
 	}
@@ -288,7 +288,7 @@ body.pace-gray .pace .pace-progress {
 		padding-bottom: 250px !important; /* Reset the bottom padding applied inline. */
 	}
 
-	
+
 
 	#home-jumbo-footer {
 		height: 180px;

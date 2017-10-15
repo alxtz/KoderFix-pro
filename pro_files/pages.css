@@ -280,7 +280,8 @@ body.pace-white .pace .pace-progress {
 }
 
 .header.bg-header {
-  height: 110px
+  height: 110px;
+  z-index: 900;
 }
 
 .header.bg-header .header-inner {
@@ -8223,7 +8224,7 @@ sup.dollar {
   }
 }
 
-@media only screen and (min-width:980px) {
+@media only screen and (min-width:981px) {
   .menu-content {
     -webkit-transform: none!important;
     -ms-transform: none!important;
@@ -8269,7 +8270,7 @@ sup.dollar {
   /*there're 2 layers of lightbox generated, that's the first bug*/
   /*somehow the header class is used on the footer element*/
   /*I'll modify it to be actually only generating the lightbox on footer*/
-  body.menu-opened>.header:before {
+  body.menu-opened>.bottom:before {
     position: fixed;
     width: 100%;
     height: 100%;
